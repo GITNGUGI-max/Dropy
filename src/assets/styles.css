@@ -1,0 +1,778 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+/*Navbar*/
+.navbar{
+        background-color: gold;
+        padding: 2em 0 2em 0;
+
+}
+.links{
+    float: right;
+}
+.link{
+    color: black;
+    font-weight: 700;
+    padding: 0 1em 0 1em;
+    text-decoration: none;
+
+
+}
+
+/*DropyMainSignUp CSS*/
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+.welcome-link{
+    margin-top: 2em;
+
+}
+/* DropyWelcome CSS */
+.welcome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+.welcome-btn{
+    background-color: gold;
+    width: 25em;
+    padding: 2em 5em;
+    border: none;
+    border-radius:40px;
+    font-weight: 1000;
+    text-decoration: none;
+
+}
+.welcome-btn2{
+    background-color: black;
+    width: 25em;
+    padding: 2em 5em;
+    border: none;
+    border-radius:40px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: gold;
+      margin-bottom: 1em;
+
+}
+.welcome-btn:hover{
+    color: gold;
+    background-color: black;
+
+}
+.welcome-btn2:hover{
+    color: black;
+    background-color: gold;
+
+}
+.para{
+    margin-top: 1em;
+}
+/* DropyLogin CSS */
+
+.login-dropy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    height: 20em;
+    
+
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+}
+.username, .password{
+    margin-top: 10px;
+    width: 33em;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid .5px rgb(76, 164, 236);
+    border-radius: 10px;
+    text-align: left;
+    background-image: linear-gradient(to right, rgb(253, 245, 223), white);
+}
+.btn-login{
+    margin-top: 50px;
+    padding: 1em 4em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 196, 0);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+.btn-login:hover{
+    background-color: black;
+    color: gold;
+}
+#username, #password{
+   
+    margin-left: 33%;
+    margin-right: auto
+}
+.social{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+
+}
+.login-options{
+    margin-top: 2em;
+    width: 4em;
+    height: 4em;
+    padding-left: 1.5em;
+    
+    
+}
+.text{
+    margin: 4em 8em 0 0;
+}
+span a{
+    margin-left: 20em;
+    font-style: italic;
+    text-decoration: none;
+    color: #ccc;
+}
+
+/* DropyRegister CSS */
+
+.register-dropy{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+    height: 20em;
+    
+
+}
+.start{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 30%;
+    margin-right: 25%;
+    position: relative;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+
+}
+.form-group-last{
+    display: flex;
+    flex-direction: column;
+
+}
+.firstname, .secondname, .idnumber, .location,.plates, .QR, .model {
+    margin-top: 10px;
+    width: 15em;
+    height: 3em;
+    border: solid .5px rgb(76, 164, 236);
+    border-radius: 10px;
+    text-align: left;
+    background-image: linear-gradient(to right, rgb(253, 245, 223), white);
+}
+.upload{
+    margin-top: 40px;
+    width: 8em;
+    height: 3em;
+    border: solid .5px rgb(76, 164, 236);
+    border-radius: 10px;
+    text-align: center;
+    background-color: magenta;
+    font-weight: 700;
+}
+.btn-register{
+    margin-top: 50px;
+    padding: 1em 4em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 196, 0);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+
+}
+.btn-register:hover{
+    background-color: black;
+    color: gold;
+}
+#firstname, #secondname, #idnumber, #location,#Password, #phonenumber, #plates, #QR, #model, #upload{
+   
+    margin-top: 10px;
+    margin-right: auto
+}
+.Password, .phonenumber{
+    margin-top: 10px;
+    width: 15em;
+    height: 3em;
+    border: solid .5px rgb(76, 164, 236);
+    border-radius: 10px;
+    text-align: left;
+    
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5EM;
+}
+.email{
+    margin-top: 10px;
+    width: 38em;
+    height: 3em;
+    border: solid .5px rgb(76, 164, 236);
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 29em;
+    
+}
+#email{
+    margin-right: 26em;
+    margin-top: 10px;
+}
+.account-exists{
+    display: flex;
+    flex-direction: row;
+    margin-left: 16em;
+    margin-bottom: 5em;
+
+}
+.btn-login2{
+    height: 2em;
+    width: 6em;
+    margin-top: 5em;
+    border: none;
+    color: rgb(255, 187, 0);
+    background-color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-bottom: 2.5em;
+}
+.btn-login2:hover{
+    background-color:gold;
+    color: black;
+}
+
+/* DropyParcelsOnboarding1 CSS*/
+
+.main{
+    margin-top: -20% !important;
+    background-image: url('./images/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    margin: 15% 20% 20em 20%;
+    background-color: black;
+    border-bottom-right-radius: 15em ;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    opacity: .8;
+    position: absolute;
+    padding-bottom: 5em;
+    padding-left: 5em;
+    height: 60em;
+}
+.white{
+    margin-top: 1em; 
+    margin-right: 65%;
+    color: white;
+    text-align: justify;
+    margin-left: 20px;
+    font-size: 3em;
+   
+}
+.white-para{
+    padding-top: 2em;
+    margin-top: 5em;
+    margin-right: 20%;
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+    text-justify: inter-word;
+    font-weight: bold;
+    font-size: 1.8em;
+
+   
+}
+.yellow{
+   margin-top: 1em; 
+   margin-right: 30%;
+   color: gold;
+   text-align: justify;
+   margin-left: 20px;
+   font-size: 3em;
+
+}
+.navigation{
+    margin-left: 2em;
+    width: 2em;
+   height: 2em;
+   border-radius:50% ;
+   border: solid 3px #3B3B3B;
+   opacity: .5;
+
+
+}
+#active{
+    background-color: gold;
+    border: solid 3px #363636;
+}
+.next{
+    background-color: gold;
+    margin-left: 65%;
+    width: 8em;
+   height: 8em;
+   border-radius:50% ;
+   margin-top: -75%;
+   border: none;
+   margin-bottom: 1em;
+}
+.buttons{
+    position: relative;
+    margin-left: -50%;
+   margin-top: -18%;
+}
+.next:hover{
+    background-color: black;
+    color: gold;
+    box-shadow: 5px 6px 50px 13px #E4D15D;
+
+}
+/* DropyParcelsOnboarding2 CSS*/
+.parcels2-top{
+    display: flex;
+    flex-direction: row;
+    margin-top: -105%;
+    
+
+}
+.map{
+    
+    width: 10em;
+    height: 10em;
+    margin: 20% 20% 5% 0%;
+    border-radius: 50%;
+}
+.text{
+    font-weight: 800;
+    margin-left: 10em;
+    text-align: left;
+}
+.para{
+    margin: 2% 20% 5% 20%;
+    font-weight: 500;
+    font-size: 2em;
+    text-align: left;
+}
+em{
+    color: gold;
+}
+.tracking{
+    width: 35em;
+    height: 35em;
+}
+
+
+.buttons-next1{
+    position: relative;
+    margin-left: -50%;
+    margin-top: 5%;
+
+}
+
+/*DropyShopOnboarding1*/
+.shop1-top{
+    display: flex;
+    flex-direction: column;
+    margin-top: -40%;
+    
+
+}
+.shop1-header{
+    text-align: left;
+    color: gold;
+    font-weight: 1000;
+    font-size: 10em;
+    margin-left: 1em;
+}
+.shop1-text{
+    text-align: left;
+    margin-left: 2em;
+    font-size: 5em;
+}
+.shop1-para{
+    text-align: left;
+     font-weight: 500;
+    font-size: 2em;
+    margin-left: 4em;
+}
+.shop1-middle{
+    margin-top: 4em;
+}
+
+/*DropyShopOnboarding2*/
+
+.shop2-top{
+    display: flex;
+    flex-direction: row;
+    margin-top: -160%
+    
+
+}
+.money{
+    
+    width: 20em;
+    height: 10em;
+    margin: 30% 20% 5% 80%;
+   
+}
+.shop2-text{
+    font-weight: 800;
+    margin-left: 8em;
+    text-align: left;
+    color: white;
+    margin-top: 4em;
+}
+.shop2-para{
+    margin: 2% 20% 5% 20%;
+    font-weight: 500;
+    font-size: 2em;
+    color: white;
+    text-align: left;
+}
+em{
+    color: gold;
+}
+.display{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.items{
+    width: 25em;
+    height: 25em;
+
+}
+.display div{
+    margin-top: 1em;
+}
+.buttons-next2{
+    position: relative;
+    margin-left: -50%;
+   margin-top: 15%;
+
+}
+.heading{
+
+    margin-right: 3.5em;
+    margin-left: 3.5em;
+    font-weight: 800;
+    color: gold;
+
+
+}
+
+/*DropRideOnboarding1 CSS*/
+.ride1-top{
+    display: flex;
+    flex-direction: column;
+    margin-top: -50%
+    
+
+}
+.ride-img{
+    width: 30em;
+    height: 10em;
+    margin: 10% 20% 0% 20%;
+   
+}
+.ride1-header{
+    font-size: 5em;
+    margin: 0em 0 1em 1.5em ;
+
+}
+.ride1-text{
+    font-weight: 600;
+    margin-left: 2.5em;
+    text-align: left;
+    color: black;
+    margin-top: -1em;
+    font-size: 4em;
+    width: 10em;
+}
+/*.ride1-middle{
+    margin-top: -20%;
+}*/
+.ride1-para{
+    margin: 2% 20% 5% 13%;
+    font-weight: 500;
+    font-size: 2em;
+    color: black;
+    text-align: left;
+}
+em{
+    color: gold;
+}
+.ride{
+    margin-top: 2.5em;
+    width: 100%;
+}
+.divider{
+    width: 100%;
+    height: 1em;
+    background-color: gold;
+}
+/*
+DropyRide2 CSS*/
+
+.ride2-top{
+    display: flex;
+    flex-direction: column;
+    margin-top: -50%
+    
+
+}
+.ride2-header{
+    font-size: 5em;
+    margin: 0em 0 1em -6.5em ;
+
+}
+.ride2-text{
+    font-weight: 700;
+    margin-left: 2.5em;
+    text-align: left;
+    color: white;
+    margin-top: -1em;
+    font-size: 4em;
+    width: 10em;
+}
+/*.ride1-middle{
+    margin-top: -20%;
+}*/
+.ride2-para{
+    margin: 2% 20% 5% 13%;
+    font-weight: 500;
+    font-size: 2em;
+    color: white;
+    text-align: left;
+}
+.ride2{
+    margin-top: 2.5em;
+    width: 100%;
+    height: 40em;
+}
+
+
+/*Dropy Create Pin CSS*/
+
+.pin-form{
+    display: flex;
+    flex-direction: column;
+}
+.create, .confirm{
+    margin-top: 2em;
+    border: solid 1px darkmagenta;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 1em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+form#pin-form input[type=password]{
+    margin: 5px;
+    width: 8em;
+    height: 8em;
+    border: solid 1px darkmagenta;
+
+
+}
+form#pin-form ::placeholder{
+    color: black;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 800;
+    position: relative;
+}
+.pin-text{
+    text-align: left;
+    margin-bottom: 1em;
+    font-weight: 800;
+}
+.note-text{
+     text-align: left;
+    margin-bottom: 1em;
+    font-weight: 800;
+    background-color: gold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+/*Rider pin CSS*/
+.enter{
+    margin-top: 2em;
+    border: solid 1px darkmagenta;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 1em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*Rider Modal details CSS*/
+
+.modal{
+    display: grid;
+    grid-template-columns:  1fr 2fr 1fr;
+    margin-top: 2em;
+    border: solid 1px darkmagenta;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 1em 1em;
+    border-radius: 20px;
+}
+.rider-profile{
+    border-radius: 50%;
+    width: 7em;
+    height: 7em;
+    margin-top: 3em;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.star{
+    width: 2em;
+    height: 2em;
+    margin-left: 100%;
+}
+.pin-text1{
+    font-weight: 800;
+    text-align: justify;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0 ;
+}
+.pin-text2{
+    font-weight: 800;
+    text-align: justify;
+    color:blueviolet;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0 ;
+}
+.pin-text3{
+    font-weight: 800;
+    text-align: justify;
+    color:blueviolet;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0 ;
+}
+.pin-text4{
+    font-style: italic;
+    font-size: .8em;
+    text-align: justify;
+    margin: 10px 0 10px 0 ;
+
+}
+.pin-text5{
+    font-weight: 800;
+    text-align: justify;
+    background-color: gold;
+    width: 3em;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0 ;
+}
+.pin-text6{
+    background-color: white;
+    text-transform: uppercase;
+    margin-top: -1.9em;
+    border: 1px solid #4D42BF;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 800;
+
+}
+.pin-text7{
+    background-color: #4D42BF;
+    text-transform: uppercase;
+    border: 1px solid #4D42BF;
+    border-radius: 20px;
+    padding: 1px 10px 1px 10px ;
+    margin-top: 150px;
+    margin-left: 40% ;
+    width: 6em;
+    color: white;
+    font-weight: 800;
+
+}
+
+/*Main Landing Before SignUp CSS*/
+
+.main-landing{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+   
+}
+ .parcels, .shops{
+ 
+    border: solid lightgray 3px;
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.rides{
+    border: solid lightgray 3px;
+    margin-left: 50%;
+    width: 40em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+.btn-main{
+    height: 4em;
+    width: 15em;
+    margin-top: 5em;
+    border: none;
+    color: rgb(255, 187, 0);
+    background-image:  linear-gradient(to right, black, gray);
+    font-weight: bold;
+    border-radius: 50px;
+    margin-bottom: 2em;
+}
+.btn-main:hover{
+    color: black;
+    background-image:  linear-gradient(to right, gray, gold);
+
+}
+.main-text{
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
